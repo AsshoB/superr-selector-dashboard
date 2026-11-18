@@ -4,7 +4,7 @@ import plotly.express as px
 from pathlib import Path
 
 st.set_page_config(page_title="SupeRR Selector | Round 1", page_icon="🏏", layout="wide")
-DATA = Path(__file__).parent / "data"
+DATA = Path(__file__).parent 
 
 @st.cache_data
 def load_data():
